@@ -8,7 +8,7 @@ Easiest way to understand the interface is to read it:
 
 ```shell
 #!/usr/bin/env bash
-# Template from https://github.com/seanbreckenridge/havecmd
+# Template from https://github.com/purarue/havecmd
 
 # get the name of this script
 declare script_name
@@ -39,8 +39,8 @@ set -e
 # Examples
 havecmd python
 havecmd fd 'See installation instructions at https://github.com/sharkdp/fd'
-havecmd wait-for-internet "Install it with 'cargo install --git https://github.com/seanbreckenridge/wait-for-internet'"
-havecmd pmark 'Install by running "sh <(curl -sSL http://git.io/sinister) -u https://raw.githubusercontent.com/seanbreckenridge/pmark/master/pmark"'
+havecmd wait-for-internet "Install it with 'cargo install --git https://github.com/purarue/wait-for-internet'"
+havecmd pmark 'Install by running "sh <(curl -sSL http://git.io/sinister) -u https://raw.githubusercontent.com/purarue/pmark/master/pmark"'
 set +e
 
 # at this point, all dependencies are satisfied
